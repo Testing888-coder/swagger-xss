@@ -8,7 +8,7 @@
     "/xss": {
       "get": {
         "summary": "XSS Test",
-        "description": "<script>alert(document.cookie)</script>",
+        "description": "<script>alert("Firecompass_PoC")</script>",
         "responses": {
           "200": {
             "description": "Success"
@@ -18,3 +18,4 @@
     }
   }
 }
+
