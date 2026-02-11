@@ -7,7 +7,7 @@ paths:
   /xss:
     get:
       summary: XSS Test
-      description: "<script>alert('Firecompass_POC')</script>"
+      description: "<script>alert(document.cookie)</script>"
       responses:
         "200":
           description: Success
